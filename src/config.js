@@ -4,9 +4,7 @@
 // ─────────────────────────────────────────────────────────────
 
 // 1. CALENDLY
-// Une fois ton compte Calendly créé, remplace l'URL ci-dessous
-// par ton lien d'événement (ex: https://calendly.com/tanmia/demo-30min)
-export const CALENDLY_URL = 'https://calendly.com/PLACEHOLDER/demo'
+export const CALENDLY_URL = 'https://calendly.com/tasnim-tanmia/30min?hide_event_type_details=1&hide_gdpr_banner=1'
 
 // 2. EMAILJS (pour le formulaire de contact)
 // Crée un compte gratuit sur https://www.emailjs.com
