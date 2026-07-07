@@ -7,14 +7,9 @@
 export const CALENDLY_URL = 'https://calendly.com/tasnim-tanmia/30min?hide_event_type_details=1&hide_gdpr_banner=1'
 
 // 2. EMAILJS (pour le formulaire de contact)
-// Crée un compte gratuit sur https://www.emailjs.com
-// 1) Ajoute un "Email Service" (Gmail, Outlook...) -> copie le Service ID
-// 2) Crée un "Email Template" avec les variables {{name}}, {{email}}, {{message}}
-//    -> copie le Template ID
-// 3) Dans Account > General, copie ta Public Key
-export const EMAILJS_SERVICE_ID = 'PLACEHOLDER_SERVICE_ID'
-export const EMAILJS_TEMPLATE_ID = 'PLACEHOLDER_TEMPLATE_ID'
-export const EMAILJS_PUBLIC_KEY = 'PLACEHOLDER_PUBLIC_KEY'
+export const EMAILJS_SERVICE_ID = 'service_2igmoks'
+export const EMAILJS_TEMPLATE_ID = 'template_wrshbnn'
+export const EMAILJS_PUBLIC_KEY = 'gGnAUGByPEQZTOIpI'
 
 // 3. CONTACT
 export const CONTACT_EMAIL = 'tasnim@tanmia.fr'
