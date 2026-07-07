@@ -13,8 +13,14 @@ export default function Demo() {
           Découvrez comment un lead non répondu devient un rendez-vous commercial automatiquement.
         </p>
         <div className="rounded-3xl overflow-hidden aspect-video">
-          <video controls poster="../../public/videos/demo-miniature.png" className="w-full h-full object-cover">
-            <source src="../../public/videos/demo.mp4" type="video/mp4" />
+          <video 
+            controls 
+            poster={`${import.meta.env.BASE_URL}videos/demo-miniature.png`}
+            className="w-full h-full object-cover">
+            <source 
+              src={`${import.meta.env.BASE_URL}videos/demo.mp4`} 
+              type="video/mp4" 
+            />
           </video>
         </div>
       </div>

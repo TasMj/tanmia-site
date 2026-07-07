@@ -10,7 +10,10 @@ export default function Hero() {
         playsInline
         className="absolute inset-0 w-full h-full object-cover"
       >
-        <source src="../../public/videos/particules.mp4" type="video/mp4" />
+        <source 
+          src={`${import.meta.env.BASE_URL}videos/particules.mp4`}
+          type="video/mp4" 
+          />
       </video>
 
       <div
