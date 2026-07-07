@@ -22,10 +22,6 @@ export default function FinalCTA() {
           <CalendlyEmbed />
           <ContactForm />
         </div>
-
-        <p className="text-center font-mono text-[12px] mt-10" style={{ color: 'var(--text-secondary)' }}>
-          {CONTACT_EMAIL}
-        </p>
       </div>
     </section>
   )
